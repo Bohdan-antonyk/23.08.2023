@@ -25,7 +25,7 @@ changeActiveBlockButton.addEventListener('click', () => {
             const green = Math.floor(Math.random() * 256);
             const blue = Math.floor(Math.random() * 256);
 
-            activeEl.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+            firstBox.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
         })
     } else if (!secondBox.classList.contains('active')) {
         secondBox.classList.add('active');
@@ -36,7 +36,7 @@ changeActiveBlockButton.addEventListener('click', () => {
             const green = Math.floor(Math.random() * 256);
             const blue = Math.floor(Math.random() * 256);
 
-            activeEl.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+            secondBox.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
         })
     }
 })
